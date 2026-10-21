@@ -1,5 +1,6 @@
 <script setup>
 defineProps({cert: Object})
+const base = import.meta.env.BASE_URL
 
 </script>
 
