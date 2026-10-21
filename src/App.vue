@@ -4,7 +4,7 @@ import FootBar from './components/FooterBar.vue'
 </script>
 
 <template>
-  <NavBar/>
-  <main>RouterView</main>
-  <FootBar/>
+  <NavBar />
+  <main><RouterView /></main>
+  <FootBar />
 </template>

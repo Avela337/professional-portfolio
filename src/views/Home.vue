@@ -15,12 +15,12 @@ const photoFailed = ref(false)
             </p>
             <div class="actions">
                 <RouterLink to="/projects" class="btn">View my work</RouterLink>
-                <a :href="`${base}cv/Avela-Gxotiwe-CV.pdf`" class="btn ghost" download>Download CV</a>"
+                <a :href="`${base}cv/Avela-Gxotiwe-CV.pdf`" class="btn ghost" download>Download CV</a>
             </div>
         </div>
         <figure>
-            <img v-if="!photoFailed" :src="`${base} images/avela.jpg`" alt="Avela Gxotiwe" @error="photoFailed=true"/>
-            <div v-else class="photo-pllaceholder" aria-hidden="true">ag.</div>
+            <img v-if="!photoFailed" :src="`${base}images/avela.jpg`" alt="Avela Gxotiwe" @error="photoFailed=true"/>
+            <div v-else class="photo-placeholder" aria-hidden="true">ag.</div>
             <figcaption>Cape Town, South Africa</figcaption>
         </figure>
     </section>

@@ -16,21 +16,24 @@ const links=[
 </script>
 
 <template>
-    <header class="nav">
-        <div class="container bar">
-            <RouterLink to="/" class="brand" @click="open = false">
-                <span class="mark">avela.dev</span>Avela Gxotiwe
-            </RouterLink>
+  <header class="nav">
+    <div class="container bar">
+      <RouterLink to="/" class="brand" @click="open = false">
+        <span class="mark">avela.dev</span>Avela Gxotiwe
+      </RouterLink>
 
-            <button class="toggle" :aria-expanded="open" aria-controls="menu" @click="open = !open">
-                {{ open ? 'Close' : 'Menu' }}
-            </button>
-            <nav id="menu" :class="{open}" aria-label="Main"></nav>
-            <RouterLink v-for="l in links" :key="l.to" :to="l.to" @click="open = false">
-                {{ l.label }}
-            </RouterLink>
-        </div>
-    </header>
+      <button class="toggle" :aria-expanded="open" aria-controls="menu" @click="open = !open">
+        {{ open ? 'Close' : 'Menu' }}
+      </button>
+
+      <!-- Links must be inside the nav element -->
+      <nav id="menu" :class="{ open }" aria-label="Main">
+        <RouterLink v-for="l in links" :key="l.to" :to="l.to" @click="open = false">
+          {{ l.label }}
+        </RouterLink>
+      </nav>
+    </div>
+  </header>
 </template>
 
 <style scoped>

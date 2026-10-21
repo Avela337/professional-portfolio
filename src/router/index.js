@@ -13,7 +13,7 @@ export default createRouter({
         {path:'/about',component:About},
         {path:'/skills',component:Skills},
         {path:'/projects',component:Projects},
-        {path:'/certfications',component:Certifications},
+        {path:'/certifications',component:Certifications},
         {path:'/contact',component:Contact},
     ],
     scrollBehavior : ()=> ({top : 0}),
