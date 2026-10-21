@@ -4,15 +4,22 @@ defineProps({cert: Object})
 </script>
 
 <template>
-    <article class="cert">
-        <div class="top">
-            <h2>{{ cert.name }}</h2>
-            <span class="status" :class="cert.status">
-                {{ cert.status==='completed' ? 'Completed': 'In Progress' }}
-            </span>
-        </div>
-        <p class="muted">{{ cert.issuer }} ~ {{ cert.date }}</p>
-    </article>
+  <article class="cert">
+    <div class="top">
+      <h2>{{ cert.name }}</h2>
+      <span class="status" :class="cert.status">
+        {{ cert.status === 'completed' ? 'Completed' : 'In Progress' }}
+      </span>
+    </div>
+    <p class="muted">{{ cert.issuer }} ~ {{ cert.date }}</p>
+    <p v-if="cert.Summary">{{ cert.Summary }}</p>
+    
+    <div v-if="cert.file" class="actions">
+      <a :href="`${base}${cert.file}`" target="_blank" rel="noopener" class="cert-link">
+        View Certificate (PDF) 
+      </a>
+    </div>
+  </article>
 </template>
 
 <style scoped>
