@@ -1,0 +1,15 @@
+:root {
+  --bg: #f7f7f2;
+  --surface: #ecece5;
+  --ink: #1d211e;
+  --muted: #5f655f;
+  --line: #d9dad2;
+  --accent: #1f6f50;
+  --accent-soft: #e1eee6;
+  --dark: #1b211e;
+  --dark-text: #f1f2ec;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --max: 1100px;
+  --radius: 8px;
+}
