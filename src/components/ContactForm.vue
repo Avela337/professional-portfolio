@@ -48,7 +48,7 @@ async function send(){
     </form>
 </template>
 
-<style scpoed>
+<style scoped>
 form { display: grid; gap: 1.1rem; max-width: 520px; }
 label { display: grid; gap: 0.4rem; font-size: 0.9rem; }
 input, textarea { font: inherit; padding: 0.75rem 0.9rem; border-radius: var(--radius); border: 1px solid #3b443f; background: transparent; color: var(--dark-text); }
