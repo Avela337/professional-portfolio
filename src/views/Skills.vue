@@ -5,7 +5,7 @@ import SkillGroup from '../components/SkillGroup.vue';
 
 <template>
     <section class="page container">
-        <p class="label">Skills</p>
+        
         <h1>A solid foundation. An open mind.</h1>
         <p class="muted intro">The tools I use in my projects and the ones I'm still learning.</p>
         <div class="grid">

@@ -1,6 +1,6 @@
 <template>
     <section class="page container">
-        <p class="label">About</p>
+        
         <h1>Software that solves problems close to home.</h1>
 
         <div class="text">

@@ -5,7 +5,7 @@ import CertificateCard from '../components/CertificateCard.vue'
 
 <template>
   <section class="page container">
-    <p class="label">Certifications</p>
+    
     <h1 class="title">Learning milestones and credentials.</h1>
     <CertificateCard v-for="(c, i) in certifications" :key="i" :cert="c" />
   </section>

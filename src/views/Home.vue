@@ -8,7 +8,7 @@ const photoFailed = ref(false)
 <template>
     <section class="hero container">
         <div class="copy">
-            <p class="label">Full Stack developer. Open yo opportunities</p>
+            <p class="label">Full Stack developer. Open to opportunities</p>
             <h1>Everyday problems. Practical software</h1>
             <p class="lead">
                 I'm Avela, a full stack developer in Cape Town. I build REST APIs and responsive Vue interfaces that help real people get things done.

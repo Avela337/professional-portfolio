@@ -5,7 +5,7 @@ import ContactForm from '../components/ContactForm.vue'
 <template>
   <div class="dark">
     <section class="page container">
-      <p class="label">Contact</p>
+      
       <h1>Good work starts with a conversation.</h1>
       <div class="cols">
         <div>

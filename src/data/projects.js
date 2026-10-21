@@ -9,7 +9,7 @@ export const projects = [
     tage:['Vue 3','Node.js','Express','MySQL'],
     image:null,
     links :[
-        {label: 'Live site', url : ''},
+        {label: 'Live site', url : 'https://chefmanie27-pixel.github.io/project-modern-tech-solutions-/'},
         {label:'Source code', url:'https://github.com/chefmanie27-pixel/project-modern-tech-solutions-'}
     ],
 
@@ -26,8 +26,8 @@ export const projects = [
         image:null,
         links:[
             {label:'Live site',url:'https://reprint-kappa.vercel.app/'},
-        {label:'API code',url:'https://github.com/imaanabrahams/RePrint-API'},
-        {label: 'Frontend code',url:'https://github.com/imaanabrahams/RePrint'},
+        {label:'backend',url:'https://github.com/imaanabrahams/RePrint-API'},
+        {label: 'Frontend',url:'https://github.com/imaanabrahams/RePrint'},
 
         ]
         

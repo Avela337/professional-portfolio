@@ -1,9 +1,9 @@
 export const certifications = [
     {
-        name: '[Introduction into Data Science]', issuer: '[Cisco]', date:'[Month year]',status:'completed'
+        name: '[Higher Certificate In ICT]', issuer: '[CPUT]', date:'[2025]',status:'completed'
     },
     {
-        name: '[Introduction into Cybersecurity]',issuer:'[Cisco]', date:'[Month year]', status:'completed'
+        name: '[Introduction into Cybersecurity]',issuer:'[Cisco]', date:'[April 2026]', status:'completed'
     }
 
 ]

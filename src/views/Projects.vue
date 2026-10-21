@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard.vue'
 
 <template>
   <section class="page container">
-    <p class="label">Projects</p>
+    
     <h1 class="title">Built to learn. Made to work.</h1>
     <ProjectCard v-for="p in projects" :key="p.id" :project="p" />
   </section>
