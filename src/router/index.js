@@ -12,7 +12,7 @@ export default createRouter({
         {path:'/',component:Home},
         {path:'/about',component:About},
         {path:'/skills',component:Skills},
-        {path:'/projects',component:Projects}
+        {path:'/projects',component:Projects},
         {path:'/certfications',component:Certifications},
         {path:'/contact',component:Contact},
     ],
