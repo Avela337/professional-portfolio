@@ -10,7 +10,7 @@ const src= computed( ()=>
 
 <template>
     <article class="card">
-        <img v-if="src" :src="src" :alt="`{project.title} screenshot`"/>
+        <img v-if="src" :src="src" :alt="`${project.title} screenshot`"/>
         <div v-else class="placeholder">Iyeza sungxama</div>
 
         <div class="body">
