@@ -19,7 +19,7 @@ const links=[
   <header class="nav">
     <div class="container bar">
       <RouterLink to="/" class="brand" @click="open = false">
-        <span class="mark">avela.dev</span>Avela Gxotiwe
+        Avela Gxotiwe
       </RouterLink>
 
       <button class="toggle" :aria-expanded="open" aria-controls="menu" @click="open = !open">
@@ -39,8 +39,7 @@ const links=[
 <style scoped>
 .nav { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
 .bar { display: flex; align-items: center; justify-content: space-between; min-height: 4.5rem; }
-.brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; font-weight: 500; }
-.mark { background: var(--accent); color: #fff; border-radius: 6px; padding: 0.25rem 0.55rem; font-size: 0.9rem; }
+.brand { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; font-weight: 500; font-size: 1.1rem; }
 nav { display: flex; gap: 1.8rem; }
 nav a { text-decoration: none; color: var(--muted); font-size: 0.95rem; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
 nav a:hover { color: var(--ink); }

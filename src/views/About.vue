@@ -20,9 +20,9 @@
             <h2>Education & Learning</h2>
             <h3>Higher Certificate in ICT</h3>
             <p class="muted">Cape Peninsula University of Technology ~ 2025</p>
-            <p class="muted">
-                Life Choices Academy ~ 2026
-            </p>
+
+            <h3><strong>Life Choices</strong></h3>
+            <p class="muted">Intern at Life Choices ~ 2026</p>
 
         </div>
     </section>
@@ -35,4 +35,5 @@ h1 { max-width: 16ch; margin-bottom: 2.5rem; }
 .edu { border-top: 1px solid var(--line); padding-top: 2rem; }
 .edu h2 { margin-bottom: 1.25rem; }
 .edu h3 { margin-bottom: 0.3rem; }
+.edu h3:not(:first-of-type) { margin-top: 1.5rem; }
 </style>
