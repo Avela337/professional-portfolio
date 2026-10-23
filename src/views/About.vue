@@ -20,9 +20,11 @@
             <h2>Education & Learning</h2>
             <h3>Higher Certificate in ICT</h3>
             <p class="muted">Cape Peninsula University of Technology ~ 2025</p>
+            <h3>Intern</h3>
             <p class="muted">
-                Life Choices Academy ~ 2026
+                Life Choices (LC Studio) ~ 2026
             </p>
+            
 
         </div>
     </section>
