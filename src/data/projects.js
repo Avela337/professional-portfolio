@@ -16,7 +16,7 @@ export const projects = [
     {
         id: 2,
         number: '02',
-        type: 'Team project ~ Backend',
+        type: 'Team project ~ Full Stack',
         title: 'RePrint',
         description: 'A 3D printing platform with a Vue frontend backed by its own REST API.',
         role: 'I built the backend: the REST API that powers the platform.',
