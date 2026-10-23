@@ -20,7 +20,7 @@ const src= computed( ()=>
             <p class="role">{{ project.role }}</p>
 
             <ul class="tags">
-                <li v-for="t in project.tags" :key="t">{{ t }}</li>
+                <li v-for="t in (project.tags || project.tag)" :key="t">{{ t }}</li>
 
             </ul>
             <div class="links">

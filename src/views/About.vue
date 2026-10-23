@@ -37,4 +37,5 @@ h1 { max-width: 16ch; margin-bottom: 2.5rem; }
 .edu { border-top: 1px solid var(--line); padding-top: 2rem; }
 .edu h2 { margin-bottom: 1.25rem; }
 .edu h3 { margin-bottom: 0.3rem; }
+.edu h3:not(:first-of-type) { margin-top: 1.5rem; }
 </style>
