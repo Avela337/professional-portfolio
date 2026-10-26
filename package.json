@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^5.0.3",
+    "devicon": "^2.18.0",
+    "devicons": "^2.4.0",
     "vue": "^3.5.44",
     "vue-router": "^5.4.0"
   },

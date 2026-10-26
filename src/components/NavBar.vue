@@ -31,6 +31,10 @@ const links=[
         <RouterLink v-for="l in links" :key="l.to" :to="l.to" @click="open = false">
           {{ l.label }}
         </RouterLink>
+        <a class="github" href="https://github.com/Avela337" target="_blank" rel="noopener" aria-label="Avela on GitHub">
+          <i class="devicon-github-original" aria-hidden="true"></i>
+          GitHub
+        </a>
       </nav>
     </div>
   </header>
@@ -43,6 +47,7 @@ const links=[
 nav { display: flex; gap: 1.8rem; }
 nav a { text-decoration: none; color: var(--muted); font-size: 0.95rem; padding: 0.25rem 0; border-bottom: 2px solid transparent; }
 nav a:hover { color: var(--ink); }
+nav a.github { display: inline-flex; align-items: center; gap: 0.4rem; }
 nav a.router-link-exact-active { color: var(--ink); border-bottom-color: var(--accent); }
 .toggle { display: none; background: none; border: 1px solid var(--line); border-radius: var(--radius); padding: 0.4rem 0.9rem; font: inherit; cursor: pointer; }
 @media (max-width: 820px) {

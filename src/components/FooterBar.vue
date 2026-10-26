@@ -2,7 +2,6 @@
     <footer>
         <div class="container row">
             <small>© 2026 Avela Gxotiwe ~ Cape Town, South Africa</small>
-            <a href="https://github.com/Avela337" target="_blank" rel="noopener">GitHub</a>
         </div>
     </footer>
 </template>
