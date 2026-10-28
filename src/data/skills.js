@@ -28,7 +28,8 @@ export const skills = [
             { name: 'Git', icon: 'devicon-git-plain colored' },
             { name: 'GitHub', icon: 'devicon-github-original' },
             { name: 'GitHub Pages', icon: 'devicon-github-original' },
-            { name: 'Vercel', icon: 'devicon-vercel-original' }
+            { name: 'Vercel', icon: 'devicon-vercel-original' },
+            { name: 'Netlify', icon: 'devicon-netlify-plain colored' }
         ],
         notes: 'Version control and deployment I use on every project.'
     }
