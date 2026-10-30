@@ -15,7 +15,7 @@ const photoFailed = ref(false)
             </p>
             <div class="actions">
                 <RouterLink to="/projects" class="btn">View my work</RouterLink>
-                <a :href="`${base}cv/AvelaGxotiwe`" class="btn ghost" download="AvelaGxotiwe">Download CV</a>
+                <a :href="`${base}cv/AvelaGxotiwe.pdf`" class="btn ghost" download="AvelaGxotiwe.pdf">Download CV</a>
             </div>
         </div>
         <figure>
